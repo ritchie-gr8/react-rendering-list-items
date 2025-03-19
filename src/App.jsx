@@ -9,8 +9,8 @@ function App() {
       <section className="movie-list-section">
         <h1 className="text-4xl text-center my-16">Move List Section</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-40">
-          {movies.map((movie, idx) => (
-            <MovieCard movie={movie} key={idx + movie.title} />
+          {movies.map((movie) => (
+            <MovieCard movie={movie} key={movie.director + movie.title} />
           ))}
         </div>
       </section>
