@@ -67,7 +67,7 @@ const movies = [
   },
   {
     title: "Game of Thrones",
-    year: "2011–",
+    year: "2011",
     runtime: "56 min",
     director: "N/A",
     image:

@@ -1,11 +1,10 @@
 import "./App.css";
+import MovieCard from "./component/MovieCard";
 
 function App() {
   return (
-    <div className="App">
-      <section className="movie-list-section">
-        {/* Render Movie Lists Here */}
-      </section>
+    <div >
+      <MovieCard/>
     </div>
   );
 }
